@@ -2,7 +2,7 @@
 
 .selected {
     background-color: rgb(29, 101, 133) !important;
-    color: white;
+    color: rgb(218, 125, 125);
   }
   .heroes {
     margin: 0 0 2em 0;
@@ -14,14 +14,14 @@
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: rgb(233, 232, 158);
+    background-color: rgb(230, 229, 179);
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
   }
   .heroes li.selected:hover {
-    background-color: #BBD8DC !important;
+    background-color: rgb(7, 219, 247) !important;
     color: rgb(31, 13, 13);
   }
   .heroes li:hover {
