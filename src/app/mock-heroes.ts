@@ -1,3 +1,11 @@
+/*  Créer Des Faux Héros */
+
+/* Créez un fichier appelé mock-heroes.ts dans le dossier src / app /.
+ Définissez une constante HEROES comme un tableau de dix héros et exportez-la. 
+ Le fichier devrait ressembler à ceci. */
+
+
+
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
@@ -12,3 +20,5 @@ export const HEROES: Hero[] = [
   { id: 9, name: 'Athena' },
   { id: 10, name: 'Persé' }
 ];
+
+/* on affiche la liste des héros en haut de la composante Héros HeroesComponent.ts */

@@ -1,8 +1,40 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<h1>{{title}}</h1>
+<!-- Les composants sont les blocs de construction fondamentaux des applications angulaires. Ils affichent des données sur l’écran, écoutent les entrées de l’utilisateur 
+    et agissent en fonction de cette entrée.-->
+
+<!-- 1- creation de la structure d'apppli initiale a l'aide du CLI-->    
+<!-- Les composants Angular Affichent les données -->
+<!-- le modèle de composant, écrit en HTML. --> 
+
+
+
+<h1>{{title}}</h1> <!-- les doubles moustaches sont des accolades d'interpolation pour afficher le totre de l'application web -->
 <nav>
     <a routerLink="/dashboard">Dashboard</a>
     <a routerLink="/heroes">Heroes</a>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>
+
+
+<!-- ETAPES 
+
+- créer la structure d’application initiale à l’aide de l’interface angular CLI .
+- appris que les composants angular affichent des données.
+- utiliser les doubles accolades d’interpolation pour afficher le titre de l’application.
+- utiliser l’interface de ligne de commande angular CLI pour créer un second composant HeroesComponent.
+- afficher le HeroesComponent en l’ajoutant au shell AppComponent.
+- appliquer la majusculePipe UppercasePipe pour mettre en forme le nom.
+- utiliser la liaison de données bidirectionnelle avec la directive ngModel.
+- appris à propos de l’AppModule.
+- importer FormsModule dans AppModule pour qu’Angular reconnaisse et applique la directive ngModel.
+- appris l’importance de déclarer les composants dans AppModule.
+- apprécier le fait que l’interface CLI l’ait déclaré pour nous.
+- vu comment l’application Tour of Heroes affiche une liste de héros dans une vue Maître / Détail.
+- vu comment l’utilisateur peut sélectionner un héros et voir les détails de ce héros.
+- utiliser *ngFor pour afficher une liste.
+- utiliser *ngFor pour inclure ou exclure un bloc HTML de manière conditionnelle.
+- pu basculer une classe de style CSS avec une liaison de class.
+
+
+-->

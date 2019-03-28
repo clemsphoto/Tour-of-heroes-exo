@@ -1,3 +1,5 @@
+/* le code de la classe du composant, écrit en TypeScript. */
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'Tour of Heroes'; /* 1- changement du titre */
 }
