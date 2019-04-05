@@ -17,6 +17,9 @@ import { MessagesComponent }    from './messages/messages.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
+
 @NgModule({  /* Certaines des métadonnées se trouvent dans les décorateurs 
   @Component  ajoutés aux classes de composants. 
   Les autres métadonnées critiques sont dans les décorateurs @NgModule. */
@@ -28,7 +31,9 @@ import { AppRoutingModule }     from './app-routing.module';
   imports: [
     BrowserModule,
     FormsModule, /* import */
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   declarations: [
     AppComponent, /* import */
